@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  flex: 1;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #999;
+}
+
+.select {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.button {
+  height: 36px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 8px;
+  background: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background: #333;
+}
